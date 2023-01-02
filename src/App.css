@@ -1,0 +1,96 @@
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+}
+
+.display {
+  font-size: 4.5rem;
+  line-height: 5.25rem;
+}
+
+.heading-1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+.heading-2 {
+  font-size: 2.375rem;
+  line-height: 3.125rem;
+}
+
+.heading-3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.heading-4 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.heading-5 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/* Body */
+.b-large-600,
+.b-large-500,
+.b-large-400 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.b-reg-600,
+.b-reg-500,
+.b-reg-400 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.b-small-600,
+.b-small-500,
+.b-small-400 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.b-thin-600,
+.b-thin-500,
+.b-thin-400 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+/* Weights */
+.display,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.b-large-600,
+.b-reg-600,
+.b-small-600,
+.b-thin-600 {
+  font-weight: 600;
+}
+
+.b-large-500,
+.b-reg-500,
+.b-small-500,
+.b-thin-500 {
+  font-weight: 500;
+}
+
+.b-large-400,
+.b-reg-400,
+.b-small-400,
+.b-thin-400 {
+  font-weight: 400;
+}

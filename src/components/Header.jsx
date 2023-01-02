@@ -1,9 +1,16 @@
 import React from 'react';
+import style from '../styles/Header.module.css';
+import Brand from './Brand';
+import Nav from './Nav';
+import Container from '../utils/Container';
 
 export default function Header() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello World!</h1>
-    </div>
+    <Container>
+      <header className={style.header}>
+        <Brand />
+        <Nav />
+      </header>
+    </Container>
   );
 }
