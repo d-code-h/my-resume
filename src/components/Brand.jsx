@@ -6,7 +6,7 @@ export default function Brand() {
     <div>
       <span className={style.brand}>
         <span className={style.brand__icon}>D</span>
-        <h3 className="heading-3">David</h3>
+        <h3 className={style.brand__name}>David</h3>
       </span>
     </div>
   );

@@ -1,14 +1,21 @@
 .nav {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   gap: 0.625rem;
 }
+.nav__bar {
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.nav__menu {
+  display: none;
+}
+
 .nav__link {
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   line-height: 1.5rem;
-  font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   color: var(--heading-color);
 }
@@ -20,4 +27,14 @@
   border-radius: 0.25rem;
   color: var(--white);
   font-weight: 600;
+}
+
+@media screen and (min-width: 37.5rem) {
+  .nav__bar {
+    display: none;
+  }
+  .nav__menu {
+    display: flex;
+    gap: 1.5rem;
+  }
 }
